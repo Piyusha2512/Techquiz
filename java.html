@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WEB</title>
+<link rel="stylesheet" type="text/css" href="web.css">
+<!-- <link rel="stylesheet" type="text/css" href="travel.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="java.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<section class="showcase3">
+<header>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color: azure;height: 110px;">
+
+            <a href="#" class="navbar-brand " id="logohere"><img src="lq.png" class="ml-1" alt="logo here"></a>
+        	<div id="b1"> <!--style="margin: 30px 240px">-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#downme" style="background-color:skyblue;color: black;">
+                <!--<span class="navbar-toggler-icon text-dark"></span>-->
+                MENU
+            </button>
+              </div>
+               
+                <div class="collapse navbar-collapse" style="background-color: azure;" id="downme">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item text-uppercase" id="navtab"><a href="indexresponsive.html" class="nav-link text-uppercase" id="linkshere"> HOME </a></li>
+                    <li class="nav-item text-uppercase" id="navtab"><a href="About us.html" class="nav-link text-uppercase" id="linkshere"> About us </a></li>
+                    <li class="nav-item text-uppercase" id="navtab"><a href="helpresponsive.html" class="nav-link text-uppercase" id="linkshere"> Help </a></li>
+                </ul>
+            </div>
+          </nav>
+        </header>
+    </section>
+                
+	<section style="margin:-85px 0px; padding:0 50px; background-color: azure">
+		<form name="quiz" id="quiz">
+		<div class="web1">
+				<p>JAVA PROGRAMMING</p>
+				Q.1 What is the range of byte data type in Java?<br>
+				<input type="radio" name="q1" id="ans" value="a">&nbsp;&nbsp;a) -128 to 127<br>
+				<input type="radio" name="q1" value="b">&nbsp;&nbsp;b) -32768 to 32767<br>
+				<input type="radio" name="q1" value="c">&nbsp;&nbsp;c) -2147483648 to 2147483647<br>
+				<input type="radio" name="q1" value="d">&nbsp;&nbsp;d) None of the mentioned
+				<br><br><br>
+				Q.2 Which of these values can a boolean variable contain?<br>
+				<input type="radio" name="q2" id="ans" value="a">&nbsp;&nbsp;a) True & False<br>
+				<input type="radio" name="q2" value="b">&nbsp;&nbsp;b) 0 & 1<br>
+				<input type="radio" name="q2" value="c">&nbsp;&nbsp;c) Any integer value<br>
+				<input type="radio" name="q2" value="d">&nbsp;&nbsp;d) true<br>
+				<br><br>
+				Q.3	Can we create an instance of Enum outside of Enum itself?<br>
+				<input type="radio" name="q3" value="a">&nbsp;&nbsp;a) True<br>
+				<input type="radio" name="q3" value="b" id="ans">&nbsp;&nbsp;b) False<br>
+				<br><br>
+				Q.4	How to format date from one form to another?<br>
+				<input type="radio" name="q4" id="ans" value="a">&nbsp;&nbsp;a) SimpleDateFormat<br>
+				<input type="radio" name="q4" value="b">&nbsp;&nbsp;b) DateFormat<br>
+				<input type="radio" name="q4" value="c">&nbsp;&nbsp;c) SimpleFormat<br>
+				<input type="radio" name="q4" value="d">&nbsp;&nbsp;d) DateConverter<br>
+				<br><br>
+				Q.5 Is SimpleDateFormat thread safe?<br>
+				<input type="radio" name="q5" value="a">&nbsp;&nbsp;a) Safe<br>
+				<input type="radio" name="q5" id="ans" value="b">&nbsp;&nbsp;b) Not Safe<br>
+				<input type="radio" name="q5" value="c">&nbsp;&nbsp;c) Can't say<br>
+				<input type="radio" name="q5" value="d">&nbsp;&nbsp;d) Depends upon editor<br>
+				<br><br>
+				Q.6	Which of these can not be used for a variable name in Java?<br>
+				<input type="radio" name="q6" value="a">&nbsp;&nbsp;a) identifier<br>
+				<input type="radio" name="q6" id="ans" value="b">&nbsp;&nbsp;b) keyword<br>
+				<input type="radio" name="q6" value="c">&nbsp;&nbsp;c) Nouns<br>
+				<input type="radio" name="q6" value="d">&nbsp;&nbsp;d) None of the above<br>
+				<br><br>
+				Q.7	What is the prototype of the default constructor of this Java class?<br>
+                public class prototype { } <br>
+				<input type="radio" name="q7" value="a">&nbsp;&nbsp;a) prototype( )<br>
+				<input type="radio" name="q7" value="b">&nbsp;&nbsp;b) prototype(void)<br>
+				<input type="radio" name="q7" value="c">&nbsp;&nbsp;c) public prototype(void)<br>
+				<input type="radio" name="q7" id="ans" value="d">&nbsp;&nbsp;d) public prototype( )<br>
+				<br><br>
+				Q.8	Which of these operators is used to allocate memory to array variable in Java?<br>
+				<input type="radio" name="q8" value="a">&nbsp;&nbsp;a) malloc<br>
+				<input type="radio" name="q8" value="b">&nbsp;&nbsp;b) alloc<br>
+				<input type="radio" name="q8" id="ans" value="c">&nbsp;&nbsp;c) new<br>
+				<input type="radio" name="q8" value="d">&nbsp;&nbsp;d) new malloc<br>
+				<br><br>
+				Q.9 Which of these is an incorrect array declaration?<br>
+				<input type="radio" name="q9" value="a">&nbsp;&nbsp;a) int arr[] = new int[5]<br>
+				<input type="radio" name="q9" value="b">&nbsp;&nbsp;b) int [] arr = new int[5]<br>
+				<input type="radio" name="q9" value="c">&nbsp;&nbsp;c) int arr[] = new int[5]<br>
+				<input type="radio" name="q9" id="ans" value="d">&nbsp;&nbsp;d) int arr[] = int [5] new<br>
+				<br><br>
+				Q.10 An array elements are always stored in ________ memory locations.<br>
+				<input type="radio" name="q10" id="ans" value="a">&nbsp;&nbsp;a) Sequential<br>
+				<input type="radio" name="q10" value="b">&nbsp;&nbsp;b) Random<br>
+				<input type="radio" name="q10" value="c">&nbsp;&nbsp;c) Sequential and Random<br>
+				<input type="radio" name="q10" value="d">&nbsp;&nbsp;d) Binary search<br>
+				<br><br>
+				Q.11 Decrement operator, −−, decreases the value of variable by what number?<br>
+				<input type="radio" name="q11" value="a">&nbsp;&nbsp;a) 4<br>
+				<input type="radio" name="q11" value="b">&nbsp;&nbsp;b) 3<br>
+				<input type="radio" name="q11" value="c">&nbsp;&nbsp;c) 2<br>
+				<input type="radio" name="q11"  id="ans" value="d">&nbsp;&nbsp;d) 1<br>
+				<br><br>
+				Q.12 Which of these is returned by “greater than”, “less than” and “equal to” operators?<br>
+				<input type="radio" name="q12" value="a">&nbsp;&nbsp;a) Integers<br>
+				<input type="radio" name="q12" value="b">&nbsp;&nbsp;b) Floating – point numbers<br>
+				<input type="radio" name="q12"  id="ans" value="c">&nbsp;&nbsp;c) Boolean<br>
+				<input type="radio" name="q12" value="d">&nbsp;&nbsp;d) None of the mentioned<br>
+				<br><br>
+				Q.13 Which of these keywords is used to make a class?<br>
+				<input type="radio" name="q13" value="a">&nbsp;&nbsp;a) struct<br>
+				<input type="radio" name="q13"  id="ans" value="b">&nbsp;&nbsp;b) class<br>
+				<input type="radio" name="q13" value="c">&nbsp;&nbsp;c) int<br>
+				<input type="radio" name="q13" value="d">&nbsp;&nbsp;d) none of the mentioned<br>
+				<br><br>
+				Q.14 Which of these statement is incorrect?<br>
+				<input type="radio" name="q14" id="ans" value="a">&nbsp;&nbsp;a) Every class must contain a main() method<br>
+				<input type="radio" name="q14" value="b">&nbsp;&nbsp;b) Applets do not require a main() method at all<br>
+				<input type="radio" name="q14" value="c">&nbsp;&nbsp;c) There can be only one main() method in a program<br>
+				<input type="radio" name="q14" value="d">&nbsp;&nbsp;d) main() method must be made public<br>
+				<br><br>
+				Q.15 What is false about constructor?<br>
+				<input type="radio" name="q15" value="a">&nbsp;&nbsp;a) Constructors cannot be synchronized in Java<br>
+				<input type="radio" name="q15" value="b">&nbsp;&nbsp;b) Java does not provide default copy constructor<br>
+				<input type="radio" name="q15" id="ans" value="c">&nbsp;&nbsp;c) Constructor can have a return type<br>
+				<input type="radio" name="q15" value="d">&nbsp;&nbsp;d) “this” and “super” can be used in a constructor<br>
+				<br><br>
+				Q.16 Abstract class cannot have a constructor<br>
+				<input type="radio" name="q16" value="a">&nbsp;&nbsp;a) True<br>
+				<input type="radio" name="q16" id="ans" value="b">&nbsp;&nbsp;b) False<br>
+				<br><br>
+				Q.17 What would be behaviour if the constructor has a return type?<br>
+				<input type="radio" name="q17" value="a">&nbsp;&nbsp;a) Runtime error<br>
+				<input type="radio" name="q17" value="b">&nbsp;&nbsp;b) Compilation and runs successfully<br>
+				<input type="radio" name="q17" id="ans" value="c">&nbsp;&nbsp;c) Compilation error<br>
+				<input type="radio" name="q17" value="d">&nbsp;&nbsp;d) Only String return type is allowed<br>
+				<br><br>
+				Q.18 Which of these cannot be declared static?<br>
+				<input type="radio" name="q18" value="a">&nbsp;&nbsp;a) class<br>
+				<input type="radio" name="q18" id="ans" value="b">&nbsp;&nbsp;b) object<br>
+				<input type="radio" name="q18" value="c">&nbsp;&nbsp;c) variable<br>
+				<input type="radio" name="q18" value="d">&nbsp;&nbsp;d) method<br>
+				<br><br>
+				Q.19 Which of these methods must be made static?<br>
+				<input type="radio" name="q19" id="ans" value="a">&nbsp;&nbsp;a) main()<br>
+				<input type="radio" name="q19" value="b">&nbsp;&nbsp;b) delete()<br>
+				<input type="radio" name="q19" value="c">&nbsp;&nbsp;c) run()<br>
+				<input type="radio" name="q19" value="d">&nbsp;&nbsp;d) finalize()<br>
+				<br><br>
+				Q.20 Which of these method of String class is used to obtain character at specified index?<br>
+				<input type="radio" name="q20" value="a">&nbsp;&nbsp;a) char()<br>
+				<input type="radio" name="q20" value="b">&nbsp;&nbsp;b) Charat()<br>
+				<input type="radio" name="q20" value="c">&nbsp;&nbsp;c) charat()<br>
+				<input type="radio" name="q20" id="ans" value="d">&nbsp;&nbsp;d) charAt()<br>
+				<br><br>
+				Q.21 Which of these keywords is used to refer to member of base class from a subclass?<br>
+				<input type="radio" name="q21" value="a">&nbsp;&nbsp;a) upper<br>
+				<input type="radio" name="q21"  id="ans" value="b">&nbsp;&nbsp;b) super<br>
+				<input type="radio" name="q21" value="c">&nbsp;&nbsp;c) this<br>
+				<input type="radio" name="q21" value="d">&nbsp;&nbsp;d) none of the mentioned<br>
+				<br><br>
+				Q.22 Which of these keywords can be used to prevent Method overriding?<br>
+				<input type="radio" name="q22" value="a">&nbsp;&nbsp;a) static<br>
+				<input type="radio" name="q22" value="b">&nbsp;&nbsp;b) constant<br>
+				<input type="radio" name="q22" value="c">&nbsp;&nbsp;c) protected<br>
+				<input type="radio" name="q22" id="ans" value="d">&nbsp;&nbsp;d) final<br>
+				<br><br>
+				Q.23 Which of these is supported by method overriding in Java? <br>
+				<input type="radio" name="q23" value="a">&nbsp;&nbsp;a) Abstraction<br>
+				<input type="radio" name="q23" value="b">&nbsp;&nbsp;b) Encapsulation<br>
+				<input type="radio" name="q23" id="ans" value="c">&nbsp;&nbsp;c) Polymorphism<br>
+				<input type="radio" name="q23" value="d">&nbsp;&nbsp;d) None of the mentioned<br>
+				<br><br>
+				Q.24 If a class inheriting an abstract class does not define all of its function then it will be known as? <br>
+				<input type="radio" name="q24" id="ans" value="a">&nbsp;&nbsp;a) Abstract<br>
+				<input type="radio" name="q24" value="b">&nbsp;&nbsp;b) A simple class<br>
+				<input type="radio" name="q24" value="c">&nbsp;&nbsp;c) Static class<br>
+				<input type="radio" name="q24" value="d">&nbsp;&nbsp;d) None of the mentioned<br>
+				<br><br>
+				Q.25 Which of these packages contains abstract keyword? <br>
+				<input type="radio" name="q25" id="ans" value="a">&nbsp;&nbsp;a) java.lang<br>
+				<input type="radio" name="q25" value="b">&nbsp;&nbsp;b) java.util<br>
+				<input type="radio" name="q25" value="c">&nbsp;&nbsp;c) java.io<br>
+				<input type="radio" name="q25" value="d">&nbsp;&nbsp;d) java.system<br>
+				<br><br>
+				Q.26 Which of this keyword must be used to inherit a class?<br>
+				<input type="radio" name="q26" value="a">&nbsp;&nbsp;a) super<br>
+				<input type="radio" name="q26" value="b">&nbsp;&nbsp;b) this<br>
+				<input type="radio" name="q26" value="c">&nbsp;&nbsp;c) extent<br>
+				<input type="radio" name="q26" id="ans" value="d">&nbsp;&nbsp;d) extends<br>
+				<br><br>
+				Q.27 Which of these is correct way of inheriting class A by class B?<br>
+				<input type="radio" name="q27" value="a">&nbsp;&nbsp;a) class B + class A {}<br>
+				<input type="radio" name="q27" value="b">&nbsp;&nbsp;b) class B inherits class A {}<br>
+				<input type="radio" name="q27" id="ans" value="c">&nbsp;&nbsp;c) class B extends A {}<br>
+				<input type="radio" name="q27" value="d">&nbsp;&nbsp;d) All of the above<br>
+				<br><br>
+				Q.28 What is not type of inheritance?<br>
+				<input type="radio" name="q28" value="a">&nbsp;&nbsp;a) Single inheritance<br>
+				<input type="radio" name="q28" id="ans" value="b">&nbsp;&nbsp;b) Double inheritance<br>
+				<input type="radio" name="q28" value="c">&nbsp;&nbsp;c) Multiple inheritance<br>
+				<input type="radio" name="q28" value="d">&nbsp;&nbsp;d) Hierachical inheritance<br>
+				<br><br>
+				Q.29 Using which of the following, multiple inheritance in Java can be implemented?<br>
+				<input type="radio" name="q29" id="ans" value="a">&nbsp;&nbsp;a) Interfaces<br>
+				<input type="radio" name="q29" value="b">&nbsp;&nbsp;b) Multithreading<br>
+				<input type="radio" name="q29" value="c">&nbsp;&nbsp;c) Protected methods<br>
+				<input type="radio" name="q29" value="d">&nbsp;&nbsp;d) Private methods<br>
+				<br><br>
+				Q.30 If super class and subclass have same variable name, which keyword should be used to use super class?<br>
+				<input type="radio" name="q30" id="ans" value="a">&nbsp;&nbsp;a) super<br>
+				<input type="radio" name="q30" value="b">&nbsp;&nbsp;b) this<br>
+				<input type="radio" name="q30" value="c">&nbsp;&nbsp;c) upper<br>
+				<input type="radio" name="q30" value="d">&nbsp;&nbsp;d) classname<br>
+				<br><br>
+				Q.31 Which of the following is used for implementing inheritance through class?<br>
+				<input type="radio" name="q31" value="a">&nbsp;&nbsp;a) inherited<br>
+				<input type="radio" name="q31" value="b">&nbsp;&nbsp;b) using<br>
+				<input type="radio" name="q31" id="ans" value="c">&nbsp;&nbsp;c) extends<br>
+				<input type="radio" name="q31" value="d">&nbsp;&nbsp;d) implements<br>
+				<br><br>
+				Q.32 Which of these class is superclass of String and StringBuffer class?<br>
+				<input type="radio" name="q32" value="a">&nbsp;&nbsp;a) java.util<br>
+				<input type="radio" name="q32" id="ans" value="b">&nbsp;&nbsp;b) java.lang<br>
+				<input type="radio" name="q32" value="c">&nbsp;&nbsp;c) ArrayList<br>
+				<input type="radio" name="q32" value="d">&nbsp;&nbsp;d) None<br>
+				<br><br>
+				Q.33 Which of this method of class String is used to obtain a length of String object?<br>
+				<input type="radio" name="q33" value="a">&nbsp;&nbsp;a) get()<br>
+				<input type="radio" name="q33" value="b">&nbsp;&nbsp;b) Sizeof()<br>
+				<input type="radio" name="q33" value="c">&nbsp;&nbsp;c) lengthof()<br>
+				<input type="radio" name="q33" id="ans" value="d">&nbsp;&nbsp;d) length()<br>
+				<br><br>
+				Q.34 Which of these class is used to create an object whose character sequence is mutable?<br>
+				<input type="radio" name="q34" value="a">&nbsp;&nbsp;a) String()<br>
+				<input type="radio" name="q34" id="ans" value="b">&nbsp;&nbsp;b) StringBuffer()<br>
+				<input type="radio" name="q34" value="c">&nbsp;&nbsp;c) String() & StringBuffer()<br>
+				<input type="radio" name="q34" value="d">&nbsp;&nbsp;d) None of the mentioned<br>
+				<br><br>
+				Q.35 Which of these method of class StringBuffer is used to find the length of current character sequence?<br>
+				<input type="radio" name="q35" id="ans" value="a">&nbsp;&nbsp;a) length()<br>
+				<input type="radio" name="q35" value="a">&nbsp;&nbsp;b) Length()<br>
+				<input type="radio" name="q35" value="c">&nbsp;&nbsp;c) capacity()<br>
+				<input type="radio" name="q35" value="d">&nbsp;&nbsp;d) Capacity()<br>
+				<br><br>
+				Q.36 Which of these keywords is not a part of exception handling?<br>
+				<input type="radio" name="q36" value="a">&nbsp;&nbsp;a) try<br>
+				<input type="radio" name="q36" value="b">&nbsp;&nbsp;b) finally<br>
+				<input type="radio" name="q36" id="ans" value="c">&nbsp;&nbsp;c) thrown<br>
+				<input type="radio" name="q36" value="d">&nbsp;&nbsp;d) catch<br>
+				<br><br>
+				Q.37 Which of these keywords must be used to monitor for exceptions?<br>
+				<input type="radio" name="q37" id="ans" value="a">&nbsp;&nbsp;a) try<br>
+				<input type="radio" name="q37" value="b">&nbsp;&nbsp;b) finally<br>
+				<input type="radio" name="q37" value="c">&nbsp;&nbsp;c) throw<br>
+				<input type="radio" name="q37" value="d">&nbsp;&nbsp;d) catch<br>
+				<br><br>
+				Q.38 What decides thread priority?<br>
+				<input type="radio" name="q38" value="a">&nbsp;&nbsp;a) Process<br>
+				<input type="radio" name="q38" value="b">&nbsp;&nbsp;b) Process scheduler<br>
+				<input type="radio" name="q38" value="c">&nbsp;&nbsp;c) Thread<br>
+				<input type="radio" name="q38" id="ans" value="d">&nbsp;&nbsp;d) Thread scheduler<br>
+				<br><br>
+				Q.39 What should not be done to avoid deadlock?<br>
+				<input type="radio" name="q39" value="a">&nbsp;&nbsp;a) Avoid using multiple threads<br>
+				<input type="radio" name="q39" value="b">&nbsp;&nbsp;b) Avoid hold several locks at once<br>
+				<input type="radio" name="q39" id="ans" value="c">&nbsp;&nbsp;c) Execute foreign code while holding a lock<br>
+				<input type="radio" name="q39" value="d">&nbsp;&nbsp;d) Use interruptible locks<br>
+				<br><br>
+				Q.40 What does AWT stands for?<br>
+				<input type="radio" name="q40" value="a">&nbsp;&nbsp;a) All Window Tools<br>
+				<input type="radio" name="q40" value="b">&nbsp;&nbsp;b) All Writing Tools<br>
+				<input type="radio" name="q40" id="ans" value="c">&nbsp;&nbsp;c) Abstract Window Toolkit<br>
+				<input type="radio" name="q40" value="d">&nbsp;&nbsp;d) Abstract Writing Toolkit<br>
+				<br><br>
+				<h4 id="note">CLICK ON SUBMIT BUTTON TO CHECK YOUR RESULT</h4><br>
+				<input type="button" name="" value="SUBMIT" id="btn" onclick="check()">
+				<br><br>
+		</div>
+	</form>
+	</section>
+
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
